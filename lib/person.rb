@@ -11,9 +11,9 @@ class Person
   attr_reader :name
   attr_accessor :bank_account, :happiness, :hygiene
   
-  def happiness
+  def happiness(num)
     
-    
+    @happiness <=> 0..10
     
   end
   
