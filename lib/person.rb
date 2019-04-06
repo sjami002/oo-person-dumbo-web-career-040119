@@ -33,11 +33,13 @@ end
 
 def clean?
   if @hygiene > 7
+    return TRUE
 end
 end
 
 def happy?
   if @happiness > 7
+    return true
 end
 end
 
