@@ -36,7 +36,7 @@ def clean?
 end
 
 def happy?
-  
+  if @happiness > 7
 end
 
 
