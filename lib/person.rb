@@ -20,5 +20,15 @@ class Person
        @happiness = 0
    end
 end
+
+def hygiene=(num)
+    @hygiene = num
+    if @hygiene > 10 
+       @hygiene = 10
+     end
+    if @hygiene < 0
+       @hygiene = 0
+   end
+end
   
 end
