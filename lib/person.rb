@@ -34,12 +34,16 @@ end
 def clean?
   if @hygiene > 7
     return TRUE
+  else
+    FALSE
 end
 end
 
 def happy?
   if @happiness > 7
     return true
+  else
+    false
 end
 end
 
