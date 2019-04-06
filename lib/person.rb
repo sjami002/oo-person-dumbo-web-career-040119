@@ -15,6 +15,7 @@ class Person
     @happiness = num
     if @happiness > 10 
        @happiness = 10
+     end
       @happiness = 
   end
   @happiness
