@@ -73,7 +73,8 @@ end
     if topic == politics
       self.happiness = @happiness-2
       person.happiness = person.happiness-2
-      return "blah blah partisan blah lobbyist"
+      return "blah blah partisan blah lobbyist"'
+    elsif
   end
   
 
