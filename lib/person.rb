@@ -30,5 +30,22 @@ def hygiene=(num)
        @hygiene = 0
    end
 end
+
+def clean?
+  if @hygiene > 7
+    return 
+end
+
+def happy?
+  
+end
+
+
+
+
+
+
+
+
   
 end
