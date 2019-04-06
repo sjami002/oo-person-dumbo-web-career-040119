@@ -64,8 +64,8 @@ end
   end
   
   def call_friend(friend)
-    self.happiness = @happiness+3
-    friend.happiness = friend.happiness+3
+    self.happiness = (@happiness+3)
+    friend.happiness = (friend.happiness+3)
     return "Hi #{friend}! It's #{@name}. How are you?"
   end
 
