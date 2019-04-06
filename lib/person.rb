@@ -16,7 +16,6 @@ class Person
     if @happiness >= 0 && @happiness <= 10
       @happiness
   end
-  @happiness = num
 end
   
 end
