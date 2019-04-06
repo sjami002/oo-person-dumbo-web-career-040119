@@ -60,6 +60,7 @@ end
   def work_out
     self.hygiene = @hygiene-3
     self.happiness = @happiness+2
+    return 
   end
   
   def call_friend(friend)
