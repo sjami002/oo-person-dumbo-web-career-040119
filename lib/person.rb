@@ -53,7 +53,7 @@ end
   end
 
   def take_bath
-    
+    self.hygiene = @hygiene+4
   end
 
   def work_out
