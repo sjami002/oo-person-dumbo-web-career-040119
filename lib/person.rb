@@ -47,7 +47,7 @@ def happy?
 end
 end
 
-def get_paid(salary)
+def get_paid=(salary)
   bank_account += salary
   return "all about the benjamins"
 end
