@@ -21,31 +21,31 @@ class Person
    end
 end
 
-def hygiene=(num)
-    @hygiene = num
-    if @hygiene > 10 
-       @hygiene = 10
+  def hygiene=(num)
+      @hygiene = num
+      if @hygiene > 10 
+         @hygiene = 10
+       end
+      if @hygiene < 0
+         @hygiene = 0
      end
-    if @hygiene < 0
-       @hygiene = 0
-   end
-end
+  end
+  
+  def clean?
+    if @hygiene > 7
+      return true
+    else
+      false
+  end
+  end
 
-def clean?
-  if @hygiene > 7
-    return true
-  else
-    false
-end
-end
-
-def happy?
-  if @happiness > 7
-    return true
-  else
-    false
-end
-end
+  def happy?
+    if @happiness > 7
+      return true
+    else
+      false
+  end
+  end
 
  def get_paid(salary)
     @bank_account += salary
@@ -56,8 +56,18 @@ end
     
   end
 
+  def work_out
+    
+  end
   
+  def call_friend
+    
+  end
 
+  def start_conversation(person, topic)
+    
+  end
+  
 
 
 
