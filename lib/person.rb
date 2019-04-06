@@ -34,9 +34,11 @@ end
 def clean?
   if @hygiene > 7
 end
+end
 
 def happy?
   if @happiness > 7
+end
 end
 
 def get_paid(salary)
