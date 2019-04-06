@@ -39,6 +39,10 @@ def happy?
   if @happiness > 7
 end
 
+def get_paid
+  
+end
+
 
 
 
