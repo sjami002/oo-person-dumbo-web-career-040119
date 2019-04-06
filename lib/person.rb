@@ -33,9 +33,9 @@ end
 
 def clean?
   if @hygiene > 7
-    return TRUE
+    return true
   else
-    FALSE
+    false
 end
 end
 
