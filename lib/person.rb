@@ -12,7 +12,7 @@ class Person
   attr_accessor :bank_account, :happiness, :hygiene
   
   def happiness(num)
-    
+    if
     
   end
   
