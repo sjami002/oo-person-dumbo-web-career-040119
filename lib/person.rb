@@ -12,6 +12,7 @@ class Person
   attr_accessor :bank_account, :happiness, :hygiene
   
   def happiness=(num)
+    @happiness = num
     if num >= 0 && num <= 10
       num = num
   end
