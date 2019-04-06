@@ -13,7 +13,6 @@ class Person
   
   def happiness(num)
     
-    num <=> 0..10
     
   end
   
