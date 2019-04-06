@@ -79,7 +79,7 @@ end
       person.happiness = person.happiness+2
       return "blah blah sun blah rain"
     else
-      return 
+      return "blah blah blah blah blah"
   end
   
 
