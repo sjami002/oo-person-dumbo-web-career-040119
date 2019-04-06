@@ -77,6 +77,7 @@ end
     elsif topic == weather
       self.happiness = @happiness+2
       person.happiness = person.happiness+2
+      
   end
   
 
